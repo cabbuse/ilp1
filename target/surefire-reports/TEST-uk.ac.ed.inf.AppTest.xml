@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uk.ac.ed.inf.AppTest" time="0.773" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/euan/Projects/ilp/target/test-classes:/home/euan/Projects/ilp/target/classes:/home/euan/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/home/euan/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/euan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/euan/.m2/repository/com/mapbox/mapboxsdk/mapbox-sdk-geojson/5.8.0/mapbox-sdk-geojson-5.8.0.jar:/home/euan/.m2/repository/com/what3words/w3w-java-wrapper/3.1.8/w3w-java-wrapper-3.1.8.jar:/home/euan/.m2/repository/com/squareup/retrofit2/retrofit/2.5.0/retrofit-2.5.0.jar:/home/euan/.m2/repository/com/squareup/okhttp3/okhttp/3.12.0/okhttp-3.12.0.jar:/home/euan/.m2/repository/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar:/home/euan/.m2/repository/com/squareup/retrofit2/converter-gson/2.5.0/converter-gson-2.5.0.jar:/home/euan/.m2/repository/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar:/home/euan/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/home/euan/.m2/repository/org/apache/derby/derbyclient/10.15.2.0/derbyclient-10.15.2.0.jar:/home/euan/.m2/repository/org/apache/derby/derbyshared/10.15.2.0/derbyshared-10.15.2.0.jar:/home/euan/.m2/repository/math/geom2d/javaGeom/0.11.1/javaGeom-0.11.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-oracle/lib"/>
+    <property name="sun.java.command" value="/home/euan/Projects/ilp/target/surefire/surefirebooter3540314573914757842.jar /home/euan/Projects/ilp/target/surefire 2021-10-28T19-39-27_272-jvmRun1 surefire843021097243730174tmp surefire_014120447483785087557tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/euan/Projects/ilp/target/test-classes:/home/euan/Projects/ilp/target/classes:/home/euan/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/home/euan/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/euan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/euan/.m2/repository/com/mapbox/mapboxsdk/mapbox-sdk-geojson/5.8.0/mapbox-sdk-geojson-5.8.0.jar:/home/euan/.m2/repository/com/what3words/w3w-java-wrapper/3.1.8/w3w-java-wrapper-3.1.8.jar:/home/euan/.m2/repository/com/squareup/retrofit2/retrofit/2.5.0/retrofit-2.5.0.jar:/home/euan/.m2/repository/com/squareup/okhttp3/okhttp/3.12.0/okhttp-3.12.0.jar:/home/euan/.m2/repository/com/squareup/okio/okio/1.15.0/okio-1.15.0.jar:/home/euan/.m2/repository/com/squareup/retrofit2/converter-gson/2.5.0/converter-gson-2.5.0.jar:/home/euan/.m2/repository/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar:/home/euan/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/home/euan/.m2/repository/org/apache/derby/derbyclient/10.15.2.0/derbyclient-10.15.2.0.jar:/home/euan/.m2/repository/org/apache/derby/derbyshared/10.15.2.0/derbyshared-10.15.2.0.jar:/home/euan/.m2/repository/math/geom2d/javaGeom/0.11.1/javaGeom-0.11.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/euan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-oracle"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/euan/Projects/ilp"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/euan/Projects/ilp/target/surefire/surefirebooter3540314573914757842.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="user.name" value="euan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-54-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/home/euan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="/home/euan/Projects/ilp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="idea.version2019.3.5" value="true"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testCloseToFalse" classname="uk.ac.ed.inf.AppTest" time="0.001"/>
+  <testcase name="testAngle20" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testAngle50" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testAngle90" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testzones" classname="uk.ac.ed.inf.AppTest" time="0.582"/>
+  <testcase name="testCloseToTrue" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testMenusFourA" classname="uk.ac.ed.inf.AppTest" time="0.019"/>
+  <testcase name="testMenusFourB" classname="uk.ac.ed.inf.AppTest" time="0.021"/>
+  <testcase name="testMenusThree" classname="uk.ac.ed.inf.AppTest" time="0.018"/>
+  <testcase name="testAngle140" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testAngle190" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testAngle260" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testAngle300" classname="uk.ac.ed.inf.AppTest" time="0.001"/>
+  <testcase name="testAngle350" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testAngle999" classname="uk.ac.ed.inf.AppTest" time="0.001"/>
+  <testcase name="testMenusOne" classname="uk.ac.ed.inf.AppTest" time="0.014"/>
+  <testcase name="testMenusTwo" classname="uk.ac.ed.inf.AppTest" time="0.009"/>
+  <testcase name="testAngle0" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testIsConfinedFalse" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testIsConfinedTrueA" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testIsConfinedTrueB" classname="uk.ac.ed.inf.AppTest" time="0"/>
+  <testcase name="testDistanceTo" classname="uk.ac.ed.inf.AppTest" time="0"/>
+</testsuite>
